@@ -22,7 +22,7 @@ int main()
    	cout << "          1. Luas Bangun Datar\n";
 	cout << "        2. Keliling Bangun Datar\n";
 	cout << "         3. Volume Bangun Ruang\n";
-	cout << "\n            Pilihan Nomor : ";
+	cout << "\nMasukkan Nomor Pilihan (1-3): ";
 	cin >> pilih;
 	
 		if (pilih == 1){
@@ -35,7 +35,7 @@ int main()
             cout << "6. Trapesium\n";
             cout << "7. Belah Ketupat\n";
             cout << "8. Layang - Layang\n";
-	        cout << "Pilihan Nomor : ";
+	        cout << "Masukkan Nomor Pilihan (1-8): ";
 	        cin >> pilihluas;
 
             if (pilihluas == 1){
@@ -44,7 +44,7 @@ int main()
 		        cout << "Masukan Panjang Sisi (cm) : ";
 		        cin >> s;
 		        hasil = s*s;
-		        cout << "Luas = "; cout << hasil; cout << " cm\n";
+		        cout << "Luas = "; cout << hasil; cout << " cm^2\n";
             }
             if (pilihluas == 2){
                 cout << "\nRumus Luas Persegi Panjang\n";
@@ -54,7 +54,7 @@ int main()
 		        cout << "Masukan Lebar (cm) : ";
 		        cin >> l;
 		        hasil = p*l;
-		        cout << "Luas = "; cout << hasil; cout << " cm\n";
+		        cout << "Luas = "; cout << hasil; cout << " cm^2\n";
             }
             if (pilihluas == 3){
                 cout << "\nRumus Luas Segitiga\n";
@@ -64,7 +64,7 @@ int main()
 		        cout << "Masukan Tinggi (cm) : ";
 		        cin >> t;
 		        hasil = a*t/2;
-		        cout << "Luas = "; cout << hasil; cout << " cm\n";
+		        cout << "Luas = "; cout << hasil; cout << " cm^2\n";
             }
             if (pilihluas == 4){
                 cout << "\nRumus Luas Lingkaran\n";
@@ -72,7 +72,7 @@ int main()
 		        cout << "Masukan jari-jari (cm) : ";
 		        cin >> r;
 		        hasil = 3.14*r*r;
-		        cout << "Luas = "; cout << hasil; cout << " cm\n";
+		        cout << "Luas = "; cout << hasil; cout << " cm^2\n";
             }
             if (pilihluas == 5){
                 cout << "\nRumus Luas Jajar Genjang\n";
@@ -82,7 +82,7 @@ int main()
 		        cout << "Masukan Tinggi (cm) : ";
 		        cin >> t;
 		        hasil = a*t/2;
-		        cout << "Luas = "; cout << hasil; cout << " cm\n";
+		        cout << "Luas = "; cout << hasil; cout << " cm^2\n";
             }
             if (pilihluas == 6){
                 cout << "\nRumus Luas Trapesium\n";
@@ -94,7 +94,7 @@ int main()
 		        cout << "Masukan Tinggi (cm) : ";
 		        cin >> t;
 		        hasil = (a+b)*t/2;
-		        cout << "Luas = "; cout << hasil; cout << " cm\n";
+		        cout << "Luas = "; cout << hasil; cout << " cm^2\n";
             }
             if (pilihluas == 7){
                 cout << "\nRumus Luas Belah Ketupat\n";
@@ -104,7 +104,7 @@ int main()
 		        cout << "Masukan Panjang Sisi b (cm) : ";
 		        cin >> d2;
 		        hasil = d1*d2/2;
-		        cout << "Luas = "; cout << hasil; cout << " cm\n";
+		        cout << "Luas = "; cout << hasil; cout << " cm^2\n";
             }
             if (pilihluas == 8){
                 cout << "\nRumus Luas Layang - Layang\n";
@@ -114,7 +114,7 @@ int main()
 		        cout << "Masukan Panjang Sisi b (cm) : ";
 		        cin >> d2;
 		        hasil = d1*d2/2;
-		        cout << "Luas = "; cout << hasil; cout << " cm\n";
+		        cout << "Luas = "; cout << hasil; cout << " cm^2\n";
             }
         }
         if (pilih == 2){
@@ -127,7 +127,7 @@ int main()
             cout << "6. Trapesium\n";
             cout << "7. Belah Ketupat\n";
             cout << "8. Layang - Layang\n";
-	        cout << "Pilihan Nomor : ";
+	        cout << "Masukkan Nomor Pilihan (1-8): ";
 	        cin >> pilihk;
 
             if (pilihk == 1){
@@ -221,7 +221,7 @@ int main()
             cout << "6. Tabung\n";
             cout << "7. Kerucut\n";
             cout << "8. Bola\n";
-	        cout << "Pilihan Nomor : ";
+	        cout << "Masukkan Nomor Pilihan (1-8): ";
 	        cin >> pilihv;
 
             if (pilihv == 1){
@@ -230,7 +230,7 @@ int main()
 		        cout << "Masukan Panjang Sisi (cm) : ";
 		        cin >> s;
 		        hasil = s*s*s;
-		        cout << "Volume = "; cout << hasil; cout << " cm\n";
+		        cout << "Volume = "; cout << hasil; cout << " cm^3\n";
             }
             if (pilihv == 2){
                 cout << "Rumus Volume Balok\n";
@@ -242,7 +242,7 @@ int main()
 		        cout << "Masukan Tinggi (cm) : ";
 		        cin >> t;
 		        hasil = p*l*t;
-		        cout << "Volume = "; cout << hasil; cout << " cm\n";
+		        cout << "Volume = "; cout << hasil; cout << " cm^3\n";
             }
             if (pilihv == 3){
                 cout << "Rumus Volume Prisma Segitiga\n";
@@ -254,7 +254,7 @@ int main()
 		        cout << "Masukan Tinggi Prisma (cm) : ";
 		        cin >> t;
 		        hasil = a*ta*t/2;
-		        cout << "Volume = "; cout << hasil; cout << " cm\n";
+		        cout << "Volume = "; cout << hasil; cout << " cm^3\n";
             }
             if (pilihv == 4){
                 cout << "Rumus Volume Limas Segitiga\n";
@@ -266,7 +266,7 @@ int main()
 		        cout << "Masukan Tinggi Limas (cm) : ";
 		        cin >> t;
 		        hasil = a*(ta/2)*t/3;
-		        cout << "Volume = "; cout << hasil; cout << " cm\n";
+		        cout << "Volume = "; cout << hasil; cout << " cm^3\n";
             }
             if (pilihv == 5){
                 cout << "Silahkan Pilih Nomor Alas Limas Segi Empat Yang Ingin Dihitung Volumenya\n";
@@ -282,7 +282,7 @@ int main()
 		            cout << "Masukan Tinggi Limas Segi Empat (cm) : ";
 		            cin >> t;
 		            hasil = s*s*t/3;
-		            cout << "Volume = "; cout << hasil; cout << " cm\n";
+		            cout << "Volume = "; cout << hasil; cout << " cm^3\n";
                 }
                 if(pilihalas == 2){
                     cout << "Rumus Volume Limas Segi Empat dengan Alas Persegi Panjang\n";
@@ -294,7 +294,7 @@ int main()
 		            cout << "Masukan Tinggi Limas Segi Empat (cm) : ";
 		            cin >> t;
 		            hasil = p*l*t/3;
-		            cout << "Volume = "; cout << hasil; cout << " cm\n";
+		            cout << "Volume = "; cout << hasil; cout << " cm^3\n";
                 }
             }
             if (pilihv == 6){
@@ -305,7 +305,7 @@ int main()
 		        cout << "Masukan Tinggi Tabung (cm) : ";
 		        cin >> t;
 		        hasil = 3.14*r*r*t;
-		        cout << "Volume = "; cout << hasil; cout << " cm\n";
+		        cout << "Volume = "; cout << hasil; cout << " cm^3\n";
             }
             if (pilihv == 7){
                 cout<<"Rumus Volume Kerucut\n";
@@ -315,7 +315,7 @@ int main()
 		        cout << "Masukan Tinggi Kerucut (cm) : ";
 		        cin >> t;
 		        hasil = 3.14*r*r*t/3;
-		        cout << "Volume = "; cout << hasil; cout << " cm\n";
+		        cout << "Volume = "; cout << hasil; cout << " cm^3\n";
             }
             if (pilihv == 8){
                 cout<<"Rumus Volume Bola\n";
@@ -323,7 +323,7 @@ int main()
 		        cout << "Masukan jari-jari bola (cm) : ";
 		        cin >> r;
 		        hasil = 3.14*4*r*r*r/3;
-		        cout << "Volume = "; cout << hasil; cout << " cm\n";
+		        cout << "Volume = "; cout << hasil; cout << " cm^3\n";
             }
         }
 		
