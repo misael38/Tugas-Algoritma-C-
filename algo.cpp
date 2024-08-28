@@ -11,7 +11,7 @@ int main()
  	float hasil;
    
    	cout << "Kelompok 1 Algoritma dan Pemrograman (Math)\n";
-    cout << "           Anggota Kelompok\n";
+    cout << "           Anggota Kelompok :\n";
     cout << "          1. Eufrasia Mokili\n";
     cout << "          2. Marvil Lawa\n";
     cout << "          3. Militya Sambali\n";
@@ -289,7 +289,7 @@ int main()
 		            cout << "V = 1/3 * p * l * t\n";
 		            cout << "Masukan Panjang Sisi Persegi Penjang (cm) : ";
 		            cin >> p;
-		            cout << "Masukan Lebar Sisi Persegi Penjang (cm) : ";
+		            cout << "Masukan Lebar Sisi Persegi Panjang (cm) : ";
 		            cin >> l;
 		            cout << "Masukan Tinggi Limas Segi Empat (cm) : ";
 		            cin >> t;
